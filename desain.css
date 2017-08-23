@@ -1,0 +1,371 @@
+@charset "utf-8";
+html {
+background:url:url(desain/bg-cerah.jpg);
+background-size:cover;
+}
+
+
+/* Mengatur Tampilan Menu Aplikasi */
+.judul_menu{
+border-radius:5px;
+	
+	text-align:center;
+	font-family:Times New Roman; /* jenis Font judul statistik */
+	font-weight:bold;
+	padding:2px 5px;
+	color:#FFFF00; 						/* warna judul statistik */
+	border-bottom:thick groove #FFFF33;	/* warna garis :pinggir,bawah bingkai/garis */
+	float: left;
+}
+
+a{
+color:#FFFF00; /* warna tulisan di Menu, Statistik jeung di kolom ubah atau hapus, tambah atau ekspor */
+text-decoration:none;
+}
+a:hover{
+color:#FFFFFF; /* bayangan tulisan Menu, Statistik jeung nulainna pas di klik */
+}
+.gambar_submenu{
+width:20px; /* ngaubah ukuran tinggi jeung lebar sub menu */
+height:20px;
+}
+.gambar_menu{
+width:36px;  /* ngaubah ukuran tinggi jeung lebar judul tabel di content */
+height:36px;
+}
+
+td.submenu {
+background:#0099FF;	/* warna background/kolom sub menu */
+color:#FFFF00; /* warna font sub menu */
+}
+td.submenu:hover {
+background:#00CCFF; /* warna kolom sub menu lamun di tunjuk */
+color:#000000;
+cursor:pointer;
+}
+.link_menu{
+	text-decoration:none;
+	border-radius:5px;
+	padding:2px 5px;
+	float:left;
+	margin:0px 5px;
+	color:#000000;
+}
+
+#atas{
+	width:800px; /* ngaubah tinggi jeung lebar Melakukan Tambahan Data.... */
+	height:140px;
+	padding:5px 0px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:Times New Roman; /* ngaubah jenis font menu */
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#atas #header {
+	height: 100px;
+	width: 100%;
+	background-image:url(desain/header%20.png);
+}
+#atas #menu {
+	background:#0099FF; /* warna background di belakang background  menu */
+	height: 48px;
+	width: 100%;
+	color:#FFFFFF;
+}
+
+#bawah {
+	width:800px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	border:solid thin #FFFF00; /* warna bingkai di belakang standard,statistik */
+	box-shadow:0px 2px 2px #000000; /* warna bingkai di belakang standard, content*/
+	background-color:#0099FF; /* warna background di belakang standar */
+}
+#bawah   #kanan{
+padding:5px;
+margin:5px;
+float:left;
+width:150px;
+border-radius:0px;
+background:none;
+}
+
+
+#bawah  #kiri{
+padding:5px;
+margin:5px;
+float:left;
+width:610px;
+font-family:Times New Roman; /* ngaubah font input */
+}
+
+#bawah #clear{
+clear:both;
+}
+
+#bawah #footer{
+padding:5px;
+float:left;
+width:790px;
+border-radius:5px;
+text-align:left;
+}
+
+.box{
+	clear: left;
+	padding: 10px;
+	border-radius: 25px 25px 25px 25px;
+	border-bottom: 1px solid rgb(89, 197, 227);
+	font:Times New Roman, Times, serif;
+	margin-right: auto;
+	margin-left: auto;
+	width:600px;
+	background-attachment: scroll;
+	background-color:#FFFF00; /* warna bingkai pinggir di akses masuk/login */
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0% 0%;
+}
+.tabel_versi1{
+	border: 2px solid rgb(255, 255, 255);
+	border-radius: 13px 13px 13px 13px;
+	padding: 12px 7px;
+	margin: 0px 0px 5px;
+	width:100%;
+	background-attachment: scroll;
+	background-color:#0099FF;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0% 0%;
+}
+h3{
+font: 20px Times New Roman, Times, serif; /* ngaubah judul data jeung warnana */
+color:#000000; /* warna tulisan atas di akses masuk/login */
+}
+input{
+	border-width: 1px;
+	border-style: solid;
+	border-right: 1px solid rgb(227, 226, 234);
+	border-color: rgb(172, 173, 178) rgb(227, 226, 234) rgb(227, 226, 234);
+	border-image: none;
+	padding: 5px;
+	margin: 0px;
+	color:#000000;					/* warna tulisan di akses masuk pada input */
+	border-radius: 10px 0px 10px 0px;
+	background-attachment: scroll;
+	background:#00CCFF;					/* warna background input di akses masuk */		
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0% 0%;
+	font-family:Times New Roman, Times, serif;
+	font-size: 1em;
+}
+input:hover{
+	border-width: 1px;
+    border-style: solid;
+    border-right: 1px solid rgb(227, 226, 234);
+    border-color:#000000;
+	box-shadow: 0px 0px 3px lime;
+}
+.batal{
+	border-width: 1px;
+	border-style: solid;
+	border-right: 1px solid rgb(227, 226, 234);
+	border-color: rgb(172, 173, 178) rgb(227, 226, 234) rgb(227, 226, 234);
+	border-image: none;
+	padding: 5px;
+	margin: 0px;
+	color:#000000;
+	border-radius: 10px 0px 10px 0px;
+	background-attachment: scroll;
+	background:#66FFFF;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0% 0%;
+	font-family:Times New Roman, Times, serif;
+	font-size: 1em;
+	width:auto;
+	float:right;
+}
+.batal:hover{
+	border-width: 1px;
+    border-style: solid;
+    border-right: 1px solid rgb(227, 226, 234);
+    border-color:#000000;
+	box-shadow: 0px 0px 3px lime;
+}
+select{
+    font: 1em Times New Roman, Times, serif;
+    border-width: 1px;
+    border-style: solid;
+    border-right: 1px solid rgb(227, 226, 234);
+    border-color: rgb(172, 173, 178) rgb(227, 226, 234) rgb(227, 226, 234);
+    padding: 6px 5px;
+    margin: 0px;
+    color: rgb(78, 78, 78);
+    border-radius: 10px 0px 10px 0px;
+    width: 100%;
+    -moz-box-sizing: border-box;
+	
+}
+select:hover{
+	border-color:#FFFF00;
+	box-shadow: 0px 0px 3px lime;
+}
+/* Tabel */
+td.judul{
+	width:180px
+}
+td.data{
+	width:180px
+}
+td.nomor{
+text-align:center;
+width:20px;
+}
+
+div.data{
+	height:200px;
+	overflow:auto;
+	width:595px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#00CCFF;
+	
+}
+/* Memberi Warna Pada Latar Belakang Tabel */
+table{
+background:#0099FF;
+}
+/* Mengatur Warna Silang Pada Baris */
+tr.data:nth-child(odd){	background:#999999; }
+tr.data:nth-child(even){ background:#CCCCCC; }
+tr.data:hover{ background:#00CCFF; color:#FFFFFF; }
+
+
+table.judul{
+	width:595px;
+	background:#00CCFF;
+	border-radius:5px 5px 0px 0px;
+	font-family:Times New Roman;
+	font-weight:bold;
+}
+
+table.status{
+	width:595px;
+	background:#00CCFF;
+	border-radius:0px 0px 5px 5px;
+}
+
+
+
+/* Pesan Informasi */
+.tambah{
+	font:Times New Roman;
+	background:#00CCFF;
+	border-radius:5px;
+	padding-left:5px;
+	padding-right:5px;
+	width:595px;
+	color:#000000;
+}
+
+.ubah{
+background:#00CCFF;
+border-radius:5px;
+padding-left:5px;
+padding-right:5px;
+width:600px;
+color:#000000;
+}
+
+.hapus{
+background:#00CCFF;
+border-radius:5px;
+padding-left:5px;
+padding-right:5px;
+width:600px;
+color:#000000;
+}
+
+.pesan{
+background:#00CCFF;
+border-radius:5px;
+padding-left:5px;
+padding-right:5px;
+width:600px;
+color:#000000;
+}
+
+/* begin Menu */
+/* menu structure */
+
+ #menu {
+position:relative;
+width: 100px;
+height: 35px;
+padding:0px;
+background:#000000;
+font-family:Times New Roman;
+font-size:15px;
+color:#FFFF00;
+}
+#menu ul {
+margin: 0;
+padding: 0;
+color:#FFFF00;
+list-style: none;
+}
+#menu ul li {
+position: relative;
+float: left;
+color:#FFFFFF;
+padding:none;
+margin:none;
+width:120px;
+}
+#menu ul li a {
+display: block;
+color:#FFFF00;
+text-decoration: none;
+padding: 10px;
+float: left;
+margin-top:2px;
+margin-left:15px;
+}
+#menu ul li a:hover {
+background-color:#00CCFF;
+color:#FFFFFF;
+margin-top:1px;
+width:100px;
+text-align:center;
+height:26px;
+}
+#menu ul li ul {
+display: none;
+margin-top:1px;
+}
+#menu ul li:hover ul{
+display: block;
+position: absolute;
+top: 41px;
+left: 0px;
+}
+#menu ul li:hover ul li a {
+display: block;
+background:#00CCFF;
+color:#FFFF00;
+width: 120px;
+}
+#menu ul li:hover ul li a:hover {
+background:#00CCFF;
+color:#FFFFFF;
+cursor:pointer;
+}
+
+
+/* end MenuSubItem */
+

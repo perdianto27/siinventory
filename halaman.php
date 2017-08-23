@@ -1,0 +1,14 @@
+<?php 
+$halaman=(isset($_GET['halaman']))?$_GET['halaman']:"default";
+switch($halaman){
+	case'akses':include"akses_modul.php";break;
+	case'pengelola':include"pengelola_modul.php";break;
+	case'pembuat':include"pembuat_modul.php";break;
+	case'katagori':include"jenis_barang_modul.php";break;
+	case'barang':include"barang_modul.php";break;
+	case'karyawan':include"karyawan_modul.php";break;
+	case'peminjaman':include"peminjaman_modul.php";break;
+	case'pencarian':include"pencarian_modul.php";break;
+	case'default':default:include'standar.php';
+	}
+?>
