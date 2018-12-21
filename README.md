@@ -1,6 +1,8 @@
 # siinventory
 Sistem Informasi Inventaris dengan PHP dan Mysql
 
+<p align="center"><img height="400px" src="https://github.com/perdianto27/siinventory/blob/master/desain/screenshoot.jpg"></p>
+
 Tech:
 - PHP Native
 - Mysql
